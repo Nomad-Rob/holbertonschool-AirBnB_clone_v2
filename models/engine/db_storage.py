@@ -95,4 +95,4 @@ class DBStorage:
         """
         End private attributes
         """
-        self.__session.close()
+        self.__session.remove()
